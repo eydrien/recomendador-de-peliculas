@@ -1,5 +1,4 @@
 from collections import deque
-
 def bfs(grafo, inicio, objetivo):
     visitados = set()
     cola = deque([inicio])

@@ -1,4 +1,4 @@
-
+from algorithms.graph_search import bfs
 def recomendar_peliculas(grafo, usuario, peliculas_vistas, peliculas_totales):
     recomendaciones = []
     for pelicula in peliculas_totales:
