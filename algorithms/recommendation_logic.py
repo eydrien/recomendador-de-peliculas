@@ -6,3 +6,4 @@ def recomendar_peliculas(grafo, usuario, peliculas_vistas, peliculas_totales):
             if any(bfs(grafo, pelicula, vista) for vista in peliculas_vistas):
                 recomendaciones.append(pelicula)
     return recomendaciones
+#hola
